@@ -5,17 +5,17 @@ The content of this repositiry accounts by four files in .json format:
 
   installations_id_type.json:
   
-    The type of each installation id {id: type}
+    The type of each installation id {installation_id: installation_type}
     
   diesel_deck_cargo_supply_duration.json: 
   
-    Diesel rate from vessel to maritime installation
+    Diesel rate from vessel to maritime installation {deisel_rate}
     
-    Supply duration of one deck cargo order unit in hours per type of installation
+    Supply duration of one deck cargo order unit in hours per type of installation {supply_duration_per_order_per_installation_type:{installation_id}
     
   installations_distance.json:
   
-    Matrix of distances from each installation and supply base to the others units
+    Matrix of distances from each installation and supply base to the others units {installation_id + supply base: {installation_id + supplt base}
     
   instance_data.json:
   
